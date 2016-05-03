@@ -1,0 +1,43 @@
+<% include partials/head %>
+<% include partials/header %>
+<div class="container">
+  <% if (user) { %>
+    <p>Logged how <%= user.personaname %></p>
+  <% }%>
+
+
+  <% if (!player) { %>
+  <div class="alert alert-danger" role="alert">No existe este jugador en nuestros registros</div>
+
+  <% } else { %>
+  <img src="<%=player.avatar %>">
+  <p><%= player.personaname %></p>
+  <div class="container">
+    <% if(player.twitch){ %>
+      <a href="http://twitch.tv/<%= player.twitch.name %>">LINK A TWITCH</a>
+      <p id="texto"></p>
+    <% }%>
+  </div>
+  <% }%>
+</div>
+<script>
+  var xmlhttp = new XMLHttpRequest();
+  var url = "https://api.twitch.tv/kraken/streams/<%= player.twitch.name %>";
+  xmlhttp.onreadystatechange = function() {
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+      var twitchStreamInfo = JSON.parse(xmlhttp.responseText);
+      if(twitchStreamInfo.stream){
+        document.getElementById("texto").innerHTML = "IL WASHO RECHUCHETUMARE ISTA ISTRIMIANDO";
+      }else{
+        document.getElementById("texto").innerHTML = "IL WASHO RECHUCHETUMARE LE DIO LA PERA Y NO ISTA ISTRIMIANDO";
+      }
+    }
+  };
+  xmlhttp.open("GET", url, true);
+  xmlhttp.send();
+</script>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>

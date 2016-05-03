@@ -1,0 +1,37 @@
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<div class="container">
+	<nav class="navbar navbar-default">
+		<div class="container">
+      <div class="navbar-header">
+
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href='#'>HOME</a></li>
+          <li><a href='#'>TORNEOS</a></li>
+          <li><a href='#'>JUGADORES</a></li>
+          <li></li>
+      <% if (!user) { %>
+          <li><a href="auth/steam"><button type="button" class="btn btn-lg btn-primary" >steam login</button></a></li>
+      <% } else { %>
+          <li><a href='<%= user._json.profileurl %>'><%= user.displayName %></a></li>
+          <li><a href='logout'><button type="button" class="btn btn-lg btn-warning" >salir</button></a></li>
+      <% } %>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+  <p><a href="/account">See Account Information</a></p>
+	<% if (league) { %>
+			<p>Liga : <%= league.id %></p>
+	<% } else { %>
+			<p>NO LIGA</p>
+	<% } %>
+  </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

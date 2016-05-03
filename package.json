@@ -1,0 +1,30 @@
+{
+  "name": "d2eg",
+  "version": "1.0.0",
+  "description": "d2eg.com",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^2.4.1",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "express-subdomain": "^1.0.5",
+    "md5": "^2.1.0",
+    "mongoose": "^4.4.12",
+    "passport": "^0.3.2",
+    "passport-twitch": "^1.0.2",
+    "passport-steam": "^1.0.1",
+    "request": "^2.71.0",
+    "dota2-minimap-hero-sprites": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "dota2"
+  ],
+  "author": "Johann Valenzuela",
+  "license": "ISC"
+}
