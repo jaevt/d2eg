@@ -1,53 +1,52 @@
 <% include partials/head %>
 <body  background="img/bg.gif">
-<div id="home" class="container">
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.6&appId=837121559742474";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
 	<% include partials/header %>
-	<div class="row">
-		<div class="col-md-9">
-			<div class="row">
-				<% include partials/panel-principal %>
-				<div class="col-md-4">
-				<% include partials/panel-campeones %>
-				</div>
-				<div class="col-md-4">
-				<% include partials/panel-twitch %>
-				</div>
-				<div class="col-md-4">
-				<% include partials/panel4 %>
-				</div>
-			</div>
+	<div class="container">
+		<div class="row">
+		  <div class="panel panel-info">
+		    <div class="panel-heading">Publicidad</div>
+		    <div class="panel-body">
+		      Tu anuncio podria estar aquí.
+		    </div>
+		  </div>
 		</div>
-
-		<div class="col-md-3">
-			<div class="navbar-inverse scroll-me" >
-				<div class="container-fluid" >
-					<div class="navbar-header" >
-						<% if (user) { console.log(user.steamid);console.log(user.avatar); %>
-						<a class="navbar-brand" href="#">
-							<img height="50" class="img-circle" src="<%= user.avatar %>">
-						</a>
-						<% } %>
+		<div class="row">
+			<div class="col-md-9">
+				<div class="row">
+					<% include partials/panel-principal %>
+					<div class="col-md-4">
+						  <% include partials/panel-campeones %>
 					</div>
-					<div class="navbar-collapse collapse navbar-right">
-						<ul class="nav navbar-nav navbar-left">
-							<% if (!user) { %>
-									<li><a href="auth/steam"><button type="button" class="btn btn-xs btn-default" >Steam Login</button></a></li>
-									<li><a href="twitch/auth"><button type="button" class="btn btn-xs btn-default" >Twitch Login</button></a></li>
-							<% } else { %>
-									<li><a href='<%= user.profileurl %>'><%= user.personaname %></a></li>
-									<li><a href='logout'><span class="glyphicon glyphicon-log-out"></span></a></li>
-							<% } %>
-						</ul>
+					<div class="col-md-8">
+					<% include partials/panel-twitch %>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-			<% include partials/panel-auspiciadores %>
+			<div class="col-md-3">
+				<div class="row">
+					<div class="panel panel-info">
+					  <div class="panel-heading">Publicidad</div>
+					  <div class="panel-body" ><p>Tu anuncio podría estar aquí.</p></div>
+					</div>
+					<% include partials/panel-auspiciadores %>
+					<div class="panel panel-info">
+						<div class="panel-heading"><img src="img/icon/heroes/broodmother_icon.png" width="16"> Redes Sociales</div>
+						<div class="panel-body">
+							<div class="fb-page" data-href="https://www.facebook.com/d2egcl/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/d2egcl/"><a href="https://www.facebook.com/d2egcl/">Dota 2 Elite Gamers</a></blockquote></div></div>
+						</div>
+					</div>
+				</div>
 			</div>
-
-
 		</div>
 	</div>
-</div>
-<% include partials/bootstrapjs %>
+	<% include partials/bootstrapjs %>
 </body>

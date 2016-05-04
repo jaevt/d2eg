@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
-var Player = require('./model/Player');
+var Player = require('./model/player');
 var connection = mongoose.createConnection('mongodb://localhost:27017/test');
 
 router.post('/updateOrCreateIfNotExist', function(req, res){
