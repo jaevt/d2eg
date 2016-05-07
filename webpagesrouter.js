@@ -11,7 +11,7 @@ var twitchStrategy = require("passport-twitch").Strategy;
 var querystring = require('querystring');
 var http = require('http');
 
-var actualIP = 'localhost';
+var actualIP = 'jaevt.cl';
 
 
 

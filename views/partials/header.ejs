@@ -1,8 +1,8 @@
-<header class="navbar navbar-static-top bs-docs-nav navbar-default" role="banner">
+<header class="navbar navbar-static-top bs-docs-nav navbar-default" role="banner" style="background:url(../../img/ui/zwartevilt.png) repeat;">
   <div class="container">
     <div class="navbar-header">
-      <a href="#">
-        <img alt="Brand" src="img/logo.png" class="navbar-brand">
+      <a href="/">
+        <img alt="Brand" src="/img/logo.png" class="navbar-brand">
       </a>
     </div>
     <nav class="collapse navbar-collapse">
@@ -16,21 +16,38 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href='#'>HOME</a></li>
             <li><a href='#'>TORNEOS</a></li>
             <li><a href='#'>PARTIDAS</a></li>
             <li><a href='#'>JUGADORES</a></li>
             <li><a href='#'>NOSOTROS</a></li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
+
             <% if (!user) { %>
-                <li><a href="auth/steam"><button type="button" class="btn btn-xs btn-default" >Steam Login</button></a></li>
-                <li><a href="twitch/auth"><button type="button" class="btn btn-xs btn-default" >Twitch Login</button></a></li>
+              <ul class="nav navbar-nav navbar-right">
+            <li><a href="auth/steam"><button type="button" class="btn btn-xs btn-default" >Steam Login</button></a></li>
+            </ul>
             <% } else { %>
-                <li><a href='<%= user.profileurl %>'><%= user.personaname %></a></li>
-                <li><a href='logout'><span class="glyphicon glyphicon-log-out"></span></a></li>
+            <li>
+              <!-- Split button -->
+              <div class="btn-group navbar-right">
+                <button type="button" class="btn"><a href="/player/<%= user.steamid %>"><%= user.personaname %></a></button>
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="caret"></span>
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a href="/account">Cuenta</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href='/logout'><span class="glyphicon glyphicon-log-out"></span> Cerrar sesión</a></li>
+                </ul>
+              </div>
+
+
+
             <% } %>
-          </ul>
+
         </div>
       </div>
     </nav>
