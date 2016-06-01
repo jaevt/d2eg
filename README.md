@@ -18,9 +18,14 @@ se acaben al momento de explicar los motivos de por qué no llevan esto a un niv
 * [SimpleMDE](https://github.com/NextStepWebs/simplemde-markdown-editor)
 
 ###Controlador
-####Routes
-####API
 
+
+
+####Routes
+Realiza HTTP request's a la API para luego renderizarlas en archivos EJS.
+
+####API
+Interfaz que se comunica la base de datos, recibe peticiones HTTP y responde JSON.
  
 #####Player
 |Endpoint | Descripcion|
