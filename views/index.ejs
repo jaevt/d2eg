@@ -1,119 +1,91 @@
-<% include partials/head %>
-<body  background="/img/ui/footer_lodyas.png">
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.6&appId=837121559742474";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
+<head>
+	<link rel="stylesheet" href="/css/parallax.css">
+	<% include partials/head %>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+	<script src="//cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+
+</head>
+<body id="home" onscroll="changeNav();">
+
+	<% include partials/google-analytics %>
+	<% include partials/facebook %>
 	<% include partials/header %>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-			  <div class="panel panel-info">
-			    <div class="panel-heading">Publicidad</div>
-			    <div class="panel-body">
-			      Tu anuncio podria estar aquí.
-			    </div>
-			  </div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-9">
-				<div class="row">
-					<% include partials/panel-principal %>
-					<% include partials/panel-youtube %>
-					<div class="col-md-6">
-					<% include partials/panel-twitch %>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="panel panel-info">
-						  <div class="panel-heading">Publicidad</div>
-						  <div class="panel-body" ><p>Tu anuncio podría estar aquí.</p></div>
-						</div>
-					</div>
-					<div class="col-md-12">
-					<% include partials/panel-auspiciadores %>
-					</div>
-					<div class="col-md-12">
-						<div class="panel panel-info">
-							<div class="panel-heading"><img src="/img/social/facebook-box.png" width="16"> Facebook</div>
-							<div class="fb-page" data-href="https://www.facebook.com/d2egcl/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/d2egcl/"><a href="https://www.facebook.com/d2egcl/">Dota 2 Elite Gamers</a></blockquote></div></div>
-						</div>
-					</div>
-					<div class="col-md-12">
-						<div class="panel panel-info">
-							<div class="panel-heading"><img src="/img/social/facebook-box.png" width="16"> Discord</div>
-							<iframe src="https://discordapp.com/widget?id=178581405423501313&theme=dark" width="100%" height="500" allowtransparency="true" frameborder="0"></iframe>
+
+	<div class="crt-parallaxvideo">
+		<video autoplay muted loop>
+			<source src="/video/intro.mp4" type="video/mp4">
+			<source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+		</video>
+	</div>
+
+	<div class="plax-content" style="background:#1B1E21;-webkit-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px -4px 5px 0px rgba(0,0,0,0.75);">
+		<div class="container">
+		<!-- <canvas id="projector">Your browser does not support the Canvas element.</canvas> -->
+			<% include partials/publicidad-top %>
+
+			<div class="row">
+
+				<div class="col-md-9">
+
+					<div class="row">
+						<div class=" col-md-12">
+							<div class="panel panel-danger">
+								<div class="panel-heading">Destacados</div>
+								<div class="panel-body" style="padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;">
+									<% include partials/panel-principal %>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
+
+				<% include partials/sidebar %>
 			</div>
 		</div>
 	</div>
-	<footer class="navbar navbar-static-bottom bs-docs-nav navbar-default" role="banner" style="background:url(../../img/ui/noisy_net.png) repeat;margin-bottom: 0px;">
-	  <div class="container">
-			<div class="row">
-				<div class="col-md-3">
-					<ul class="list-unstyled clear-margins">
-					  <li class="widget-container widget_nav_menu">
-							<h2 class="title-widget">D2EG en Internet</h2>
-							<ul class="list-unstyled">
-								<li><a href="https://www.youtube.com/channel/UCwpH438VouP6rbByg1E095g"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Youtube</a></li>
-								<li><a href="https://www.twitch.tv/d2egcl"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Twitch</a></li>
 
-					      <li><a href="https://discordapp.com/channels/159817702238584832/159817702238584832"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> DiscordApp</a></li>
-								<li><a href="http://steamcommunity.com/groups/D2EG"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Steam Group</a></li>
-								<li><a href="https://battlefy.com/d2eg"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Battlefy</a></li>
-
-							</ul>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-3">
-					<ul class="list-unstyled clear-margins">
-					  <li class="widget-container widget_nav_menu">
-							<h2 class="title-widget">Social</h2>
-							<ul class="list-unstyled">
-								<li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Facebook</a></li>
-					      <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Twitter</a></li>
-								<li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Instagram</a></li>
-					      <li><a href="#"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Messenger</a></li>
-					    </ul>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-3">
-					<ul class="list-unstyled clear-margins">
-					  <li class="widget-container widget_nav_menu">
-							<h2 class="title-widget">Links</h2>
-							<ul class="list-unstyled">
-								<li><a href="http://www.dota2.com/687?l=spanish"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Última actualización</a></li>
-					      <li><a href="http://blog.dota2.com/"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> Blog Dota2</a></li>
-					    </ul>
-						</li>
-					</ul>
-				</div>
-				<div class="col-md-3">
-					<ul class="list-unstyled clear-margins">
-						<li class="widget-container widget_nav_menu">
-							<h2 class="title-widget">Nosotros</h2>
-							<address>
-								<strong>Elite Gamers</strong><br>
-								Valparaíso, Chile<br>
-								<abbr title="Mail">M:</abbr> contacto@d2eg.com
-							</address>
-						</li>
-					</ul>
-				</div>
-			</div>
-	  </div>
-	</footer>
+	<% include partials/footer %>
 	<% include partials/bootstrapjs %>
+
+	<script>
+		// Twitch-API
+		// GET https://api.twitch.tv/kraken/streams/d2egcl
+		// If user is streaming now, the page will show her stream with chat.
+		var xmlhttp = new XMLHttpRequest();
+		var urlTwitchStream = "https://api.twitch.tv/kraken/streams/d2egcl";
+		xmlhttp.onreadystatechange = function() {
+			if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+				var streamInfo = JSON.parse(xmlhttp.responseText);
+				if(streamInfo.stream != null){
+					document.getElementById("stream").innerHTML =
+					"<div class=\"panel panel-danger\"><div class=\"panel-heading\">EN DIRECTO</div><div class=\"panel-body\"><div class=\"col-md-8\"><div class=\"embed-responsive embed-responsive-16by9\"><iframe class=\"embed-responsive-item\" src=\"https://player.twitch.tv/?channel=d2egcl\" frameborder=\"0\" scrolling=\"no\"></iframe><a href=\"https://www.twitch.tv/d2egcl?tt_medium=live_embed&tt_content=text_link\" style=\"padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px;text-decoration:underline;\">Watch live video from d2egcl on www.twitch.tv</a></div></div><div class=\"col-md-4\"><iframe src=\"https://www.twitch.tv/d2eg/chat?popout=\" frameborder=\"0\" width=\"100%\" style=\"height:400;\" scrolling=\"no\" ></iframe></div></div></div>";
+				}
+			}
+		};
+		xmlhttp.open("GET", urlTwitchStream, true);
+		xmlhttp.send();
+		function changeNav(){
+			if(document.getElementById("home").scrollTop>100){
+				document.getElementById("navbar").backgroundColor = "blue";
+
+			}
+			if(document.getElementById("home").scrollTop<100){
+				document.getElementById("navbar").backgroundColor = "red";
+			}
+		}
+	</script>
+
+	<script>
+	    $(document).ready(function(){
+	      $(window).scroll(function() { // check if scroll event happened
+	        if ($(document).scrollTop() > 300) { // check if user scrolled more than 50 from top of the browser window
+	          $("#navbar").css("background", "url('/img/ui/noisy_net.png') repeat"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+	        } else {
+	          $("#navbar").css("background", "transparent"); // if not, change it back to transparent
+	        }
+	      });
+	    });
+	</script>
 </body>

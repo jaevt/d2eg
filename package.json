@@ -15,7 +15,8 @@
     "passport-twitch": "^1.0.2",
     "passport-steam": "^1.0.1",
     "request": "^2.71.0",
-    "dota2-minimap-hero-sprites": "^2.0.0"
+    "dota2-minimap-hero-sprites": "^2.0.0",
+    "passport-facebook" : "^2.1.1"
   },
   "devDependencies": {},
   "scripts": {
