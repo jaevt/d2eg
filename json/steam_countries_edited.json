@@ -1,0 +1,2716 @@
+{
+  "AR": {
+      "name": "Argentina",
+      "states": {
+          "10": {
+              "name": "Jujuy",
+              "cities": {
+                  "5549": {
+                      "name": "Jujuy",
+                      "coordinates": "-24.185786,-65.299477",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5553": {
+                      "name": "Libertador General San Martin",
+                      "coordinates": "-23.81945,-64.790077",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5591": {
+                      "name": "San Pedro",
+                      "coordinates": "-24.231657,-64.86787099999999",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-22.663321,-66.236717",
+              "coordinates_accuracy_level": "state"
+          },
+          "11": {
+              "name": "La Pampa",
+              "cities": {
+                  "5544": {
+                      "name": "General Pico",
+                      "coordinates": "-35.656952,-63.754547",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5595": {
+                      "name": "Santa Rosa",
+                      "coordinates": "-36.620768,-64.29006200000001",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-37.895659,-65.09577899999999",
+              "coordinates_accuracy_level": "state"
+          },
+          "12": {
+              "name": "La Rioja",
+              "cities": {
+                  "5552": {
+                      "name": "La Rioja",
+                      "coordinates": "-29.4128,-66.85598",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-29.4128,-66.85598",
+              "coordinates_accuracy_level": "state"
+          },
+          "13": {
+              "name": "Mendoza",
+              "cities": {
+                  "5556": {
+                      "name": "Lujan",
+                      "coordinates": "-33.033878,-68.882362",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5558": {
+                      "name": "Mendoza",
+                      "coordinates": "-32.890183,-68.84405",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5580": {
+                      "name": "Rivadavia",
+                      "coordinates": "-33.1842,-68.466797",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5588": {
+                      "name": "San Martin",
+                      "coordinates": "-33.079979,-68.46946",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5592": {
+                      "name": "San Rafael",
+                      "coordinates": "-34.613152,-68.34101099999999",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-32.890183,-68.84405",
+              "coordinates_accuracy_level": "state"
+          },
+          "14": {
+              "name": "Misiones",
+              "cities": {
+                  "5542": {
+                      "name": "Eldorado",
+                      "coordinates": "-26.39992,-54.626812",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5565": {
+                      "name": "Obera",
+                      "coordinates": "-27.48678,-55.120333",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5569": {
+                      "name": "Posadas",
+                      "coordinates": "-27.362137,-55.900875",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-26.937715,-54.434214",
+              "coordinates_accuracy_level": "state"
+          },
+          "15": {
+              "name": "Neuquen",
+              "cities": {
+                  "5563": {
+                      "name": "Neuquen",
+                      "coordinates": "-38.952444,-68.064139",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-38.952444,-68.064139",
+              "coordinates_accuracy_level": "state"
+          },
+          "16": {
+              "name": "Rio Negro",
+              "cities": {
+                  "5545": {
+                      "name": "General Roca",
+                      "coordinates": "-39.026752,-67.57517199999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5583": {
+                      "name": "San Carlos De Bariloche",
+                      "coordinates": "-41.133472,-71.310278",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5607": {
+                      "name": "Viedma",
+                      "coordinates": "-40.811909,-62.99620400000001",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-40.734434,-66.617645",
+              "coordinates_accuracy_level": "state"
+          },
+          "17": {
+              "name": "Salta",
+              "cities": {
+                  "5582": {
+                      "name": "Salta",
+                      "coordinates": "-24.782932,-65.412155",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5593": {
+                      "name": "San Ramon De La Nueva Oran",
+                      "coordinates": "-23.13883,-64.318558",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5599": {
+                      "name": "Tartagal",
+                      "coordinates": "-22.516762,-63.805608",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-24.782932,-65.412155",
+              "coordinates_accuracy_level": "state"
+          },
+          "18": {
+              "name": "San Juan",
+              "cities": {
+                  "5585": {
+                      "name": "San Juan",
+                      "coordinates": "-31.527273,-68.52140799999999",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-31.527273,-68.52140799999999",
+              "coordinates_accuracy_level": "state"
+          },
+          "19": {
+              "name": "San Luis",
+              "cities": {
+                  "5561": {
+                      "name": "Mercedes",
+                      "coordinates": "-33.690102,-65.46547700000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5587": {
+                      "name": "San Luis",
+                      "coordinates": "-33.30222,-66.336798",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-33.30222,-66.336798",
+              "coordinates_accuracy_level": "state"
+          },
+          "20": {
+              "name": "Santa Cruz",
+              "cities": {
+                  "5578": {
+                      "name": "Rio Gallegos",
+                      "coordinates": "-51.623048,-69.216829",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-48.773682,-69.191717",
+              "coordinates_accuracy_level": "state"
+          },
+          "21": {
+              "name": "Santa Fe",
+              "cities": {
+                  "5573": {
+                      "name": "Rafaela",
+                      "coordinates": "-31.252598,-61.49164199999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5575": {
+                      "name": "Reconquista",
+                      "coordinates": "-29.144819,-59.643524",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5581": {
+                      "name": "Rosario",
+                      "coordinates": "-32.950741,-60.6665",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5594": {
+                      "name": "Santa Fe",
+                      "coordinates": "-31.632389,-60.699459",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5605": {
+                      "name": "Venado Tuerto",
+                      "coordinates": "-33.75,-61.965641",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5609": {
+                      "name": "Villa Constitucion",
+                      "coordinates": "-33.227158,-60.32986999999999",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-31.632389,-60.699459",
+              "coordinates_accuracy_level": "state"
+          },
+          "22": {
+              "name": "Santiago del Estero",
+              "cities": {
+                  "5596": {
+                      "name": "Santiago Del Estero",
+                      "coordinates": "-27.78442,-64.267281",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-27.78442,-64.267281",
+              "coordinates_accuracy_level": "state"
+          },
+          "23": {
+              "name": "Tierra del Fuego",
+              "cities": {
+                  "5603": {
+                      "name": "Ushuaia",
+                      "coordinates": "-54.801912,-68.30295099999999",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-54.30835500000001,-67.74515599999999",
+              "coordinates_accuracy_level": "state"
+          },
+          "24": {
+              "name": "Tucuman",
+              "cities": {
+                  "5602": {
+                      "name": "Tucuman",
+                      "coordinates": "-26.808285,-65.21759",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-26.946846,-65.285708",
+              "coordinates_accuracy_level": "state"
+          },
+          "01": {
+              "name": "Buenos Aires",
+              "cities": {
+                  "5529": {
+                      "name": "Azul",
+                      "coordinates": "-36.774967,-59.854038",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5530": {
+                      "name": "Bahia Blanca",
+                      "coordinates": "-38.711678,-62.268078",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5532": {
+                      "name": "Campana",
+                      "coordinates": "-34.16748,-58.95264",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5534": {
+                      "name": "Chacabuco",
+                      "coordinates": "-34.635933,-60.465122",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5535": {
+                      "name": "Chivilcoy",
+                      "coordinates": "-34.89724,-60.01883699999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5541": {
+                      "name": "Dolores",
+                      "coordinates": "-36.315232,-57.67531099999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5550": {
+                      "name": "Junin",
+                      "coordinates": "-34.58855,-60.94955400000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5551": {
+                      "name": "La Plata",
+                      "coordinates": "-34.92125,-57.954333",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5554": {
+                      "name": "Lincoln",
+                      "coordinates": "-34.868449,-61.52909099999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5555": {
+                      "name": "Lujan",
+                      "coordinates": "-34.565731,-59.117432",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5557": {
+                      "name": "Mar Del Plata",
+                      "coordinates": "-37.979858,-57.589794",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5559": {
+                      "name": "Mercedes",
+                      "coordinates": "-34.654602,-59.42841299999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5562": {
+                      "name": "Necochea",
+                      "coordinates": "-38.554497,-58.739609",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5564": {
+                      "name": "Nueve De Julio",
+                      "coordinates": "-35.457642,-60.887272",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5566": {
+                      "name": "Olavarria",
+                      "coordinates": "-36.89209,-60.314941",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5568": {
+                      "name": "Pergamino",
+                      "coordinates": "-33.888142,-60.569336",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5572": {
+                      "name": "Punta Alta",
+                      "coordinates": "-38.87606,-62.07408900000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5589": {
+                      "name": "San Nicolas",
+                      "coordinates": "-33.333466,-60.211029",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5590": {
+                      "name": "San Pedro",
+                      "coordinates": "-33.682003,-59.665165",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5597": {
+                      "name": "San Vicente",
+                      "coordinates": "-35.023338,-58.423546",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5598": {
+                      "name": "Tandil",
+                      "coordinates": "-37.31781,-59.150391",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5601": {
+                      "name": "Tres Arroyos",
+                      "coordinates": "-38.376312,-60.27813",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5604": {
+                      "name": "Veinticinco De Mayo",
+                      "coordinates": "-35.431931,-60.176701",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5611": {
+                      "name": "Zarate",
+                      "coordinates": "-34.098808,-59.03229099999999",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-34.603723,-58.38159300000001",
+              "coordinates_accuracy_level": "state"
+          },
+          "02": {
+              "name": "Catamarca",
+              "cities": {
+                  "5533": {
+                      "name": "Catamarca",
+                      "coordinates": "-28.468991,-65.778972",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-28.468991,-65.778972",
+              "coordinates_accuracy_level": "state"
+          },
+          "03": {
+              "name": "Chaco",
+              "cities": {
+                  "5570": {
+                      "name": "Presidencia Roque Saenz Pena",
+                      "coordinates": "-26.792101,-60.437611",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5576": {
+                      "name": "Resistencia",
+                      "coordinates": "-27.451656,-58.98625199999999",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-26.585766,-60.954007",
+              "coordinates_accuracy_level": "state"
+          },
+          "04": {
+              "name": "Chubut",
+              "cities": {
+                  "5571": {
+                      "name": "Puerto Madryn",
+                      "coordinates": "-42.754398,-65.04930899999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5574": {
+                      "name": "Rawson",
+                      "coordinates": "-43.299858,-65.099487",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5600": {
+                      "name": "Trelew",
+                      "coordinates": "-43.24913,-65.30740400000001",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-43.684619,-69.27455399999999",
+              "coordinates_accuracy_level": "state"
+          },
+          "05": {
+              "name": "Cordoba",
+              "cities": {
+                  "5528": {
+                      "name": "Alta Gracia",
+                      "coordinates": "-31.654552,-64.430603",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5531": {
+                      "name": "Bell Ville",
+                      "coordinates": "-32.620113,-62.689262",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5539": {
+                      "name": "Cordoba",
+                      "coordinates": "-31.39893,-64.182129",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5577": {
+                      "name": "Rio Cuarto",
+                      "coordinates": "-33.132019,-64.34967",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5579": {
+                      "name": "Rio Tercero",
+                      "coordinates": "-32.176544,-64.113203",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5584": {
+                      "name": "San Francisco",
+                      "coordinates": "-31.424999,-62.08416",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5608": {
+                      "name": "Villa Carlos Paz",
+                      "coordinates": "-31.42101299999999,-64.499444",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5610": {
+                      "name": "Villa Maria",
+                      "coordinates": "-32.410461,-63.243645",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-31.39893,-64.182129",
+              "coordinates_accuracy_level": "state"
+          },
+          "06": {
+              "name": "Corrientes",
+              "cities": {
+                  "5540": {
+                      "name": "Corrientes",
+                      "coordinates": "-27.471226,-58.839584",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5546": {
+                      "name": "Goya",
+                      "coordinates": "-29.144224,-59.264324",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5560": {
+                      "name": "Mercedes",
+                      "coordinates": "-29.184582,-58.073572",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5586": {
+                      "name": "San Lorenzo",
+                      "coordinates": "-28.130218,-58.766201",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-28.58416,-58.007192",
+              "coordinates_accuracy_level": "state"
+          },
+          "07": {
+              "name": "Distrito Federal",
+              "cities": {
+                  "5536": {
+                      "name": "Comodoro Rivadavia",
+                      "coordinates": "-31.743433,-60.487926",
+                      "coordinates_accuracy_level": "state"
+                  }
+              },
+              "coordinates": "-31.743433,-60.487926",
+              "coordinates_accuracy_level": "state"
+          },
+          "08": {
+              "name": "Entre Rios",
+              "cities": {
+                  "5537": {
+                      "name": "Concepcion Del Uruguay",
+                      "coordinates": "-32.484535,-58.232142",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5538": {
+                      "name": "Concordia",
+                      "coordinates": "-31.391848,-58.01706",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5547": {
+                      "name": "Gualeguaychu",
+                      "coordinates": "-33.007778,-58.511167",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5548": {
+                      "name": "Gualeguay",
+                      "coordinates": "-33.151241,-59.33441199999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5567": {
+                      "name": "Parana",
+                      "coordinates": "-31.74132,-60.511547",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "5606": {
+                      "name": "Victoria",
+                      "coordinates": "-32.621586,-60.157534",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-32.517564,-59.10417600000001",
+              "coordinates_accuracy_level": "state"
+          },
+          "09": {
+              "name": "Formosa",
+              "cities": {
+                  "5543": {
+                      "name": "Formosa",
+                      "coordinates": "-26.185201,-58.17537",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-25.394597,-58.737363",
+              "coordinates_accuracy_level": "state"
+          }
+      },
+      "coordinates": "-38.416097,-63.616672",
+      "coordinates_accuracy_level": "country"
+  },
+  "CL": {
+      "name": "Chile",
+      "states": {
+          "10": {
+              "name": "Magallanes y de la Antartica Chi",
+              "cities": {
+                  "9704": {
+                      "name": "Punta Arenas",
+                      "coordinates": "-35.675147,-71.542969",
+                      "coordinates_accuracy_level": "country"
+                  }
+              },
+              "coordinates": "-35.675147,-71.542969",
+              "coordinates_accuracy_level": "country"
+          },
+          "11": {
+              "name": "Maule",
+              "cities": {
+                  "9652": {
+                      "name": "Cauquenes",
+                      "coordinates": "-35.9667,-72.34999999999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9660": {
+                      "name": "Constitucion",
+                      "coordinates": "-35.3333,-72.41670000000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9665": {
+                      "name": "Curico",
+                      "coordinates": "-34.985949,-71.241775",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9680": {
+                      "name": "Linares",
+                      "coordinates": "-35.846407,-71.599614",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9683": {
+                      "name": "Longavi",
+                      "coordinates": "-35.963627,-71.683125",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9689": {
+                      "name": "Molina",
+                      "coordinates": "-35.116499,-71.28297600000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9698": {
+                      "name": "Parral",
+                      "coordinates": "-36.139959,-71.82444099999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9715": {
+                      "name": "San Clemente",
+                      "coordinates": "-35.536468,-71.48937100000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9717": {
+                      "name": "San Javier",
+                      "coordinates": "-35.593096,-71.732502",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9723": {
+                      "name": "Talca",
+                      "coordinates": "-35.430647,-71.65729",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9726": {
+                      "name": "Teno",
+                      "coordinates": "-34.870299,-71.166403",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-35.51636,-71.572395",
+              "coordinates_accuracy_level": "state"
+          },
+          "12": {
+              "name": "Region Metropolitana",
+              "cities": {
+                  "9641": {
+                      "name": "Buin",
+                      "coordinates": "-33.730937,-70.742322",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9667": {
+                      "name": "El Monte",
+                      "coordinates": "-33.681528,-70.98539700000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9674": {
+                      "name": "Lampa",
+                      "coordinates": "-33.282709,-70.879328",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9688": {
+                      "name": "Melipilla",
+                      "coordinates": "-33.686159,-71.216684",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9696": {
+                      "name": "Paine",
+                      "coordinates": "-33.812566,-70.73759699999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9699": {
+                      "name": "Penaflor",
+                      "coordinates": "-33.604887,-70.887169",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9713": {
+                      "name": "San Bernardo",
+                      "coordinates": "-33.581638,-70.686829",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9719": {
+                      "name": "Santiago",
+                      "coordinates": "-33.46912,-70.641997",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9721": {
+                      "name": "Talagante",
+                      "coordinates": "-33.663747,-70.92739400000001",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-33.484335,-70.621679",
+              "coordinates_accuracy_level": "state"
+          },
+          "13": {
+              "name": "Tarapaca",
+              "cities": {
+                  "9640": {
+                      "name": "Arica",
+                      "coordinates": "-18.471768,-70.289756",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9671": {
+                      "name": "Iquique",
+                      "coordinates": "-20.2167,-70.142223",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-20.20288,-69.28775400000001",
+              "coordinates_accuracy_level": "state"
+          },
+          "01": {
+              "name": "Valparaiso",
+              "cities": {
+                  "9643": {
+                      "name": "Cabildo",
+                      "coordinates": "-32.425806,-71.06616200000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9647": {
+                      "name": "Calera",
+                      "coordinates": "-32.771165,-71.109201",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9648": {
+                      "name": "Calera",
+                      "coordinates": "-32.771165,-71.109201",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9673": {
+                      "name": "La Ligua",
+                      "coordinates": "-32.449902,-71.232596",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9679": {
+                      "name": "Limache",
+                      "coordinates": "-33.009528,-71.25958900000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9681": {
+                      "name": "Llaillay",
+                      "coordinates": "-32.840509,-70.95920700000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9684": {
+                      "name": "Los Andes",
+                      "coordinates": "-32.8338,-70.597218",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9706": {
+                      "name": "Quillota",
+                      "coordinates": "-32.880303,-71.24971600000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9707": {
+                      "name": "Quilpue",
+                      "coordinates": "-33.049725,-71.431091",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9712": {
+                      "name": "San Antonio",
+                      "coordinates": "-33.583647,-71.61306500000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9716": {
+                      "name": "San Felipe",
+                      "coordinates": "-32.75,-70.720812",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9732": {
+                      "name": "Valparaiso",
+                      "coordinates": "-33.045646,-71.620361",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9736": {
+                      "name": "Villa Alemana",
+                      "coordinates": "-33.047638,-71.37341000000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9738": {
+                      "name": "Vina Del Mar",
+                      "coordinates": "-33.024527,-71.55234",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-33.045646,-71.620361",
+              "coordinates_accuracy_level": "state"
+          },
+          "02": {
+              "name": "Aisen del General Carlos Ibanez",
+              "cities": {
+                  "9656": {
+                      "name": "Coihaique",
+                      "coordinates": "-46.378345,-72.30076200000001",
+                      "coordinates_accuracy_level": "state"
+                  }
+              },
+              "coordinates": "-46.378345,-72.30076200000001",
+              "coordinates_accuracy_level": "state"
+          },
+          "03": {
+              "name": "Antofagasta",
+              "cities": {
+                  "9638": {
+                      "name": "Antofagasta",
+                      "coordinates": "-23.65,-70.40000000000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9645": {
+                      "name": "Calama",
+                      "coordinates": "-22.453712,-68.925307",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9724": {
+                      "name": "Taltal",
+                      "coordinates": "-25.406494,-70.48030300000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9727": {
+                      "name": "Tocopilla",
+                      "coordinates": "-22.085798,-70.193006",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-23.65,-70.40000000000001",
+              "coordinates_accuracy_level": "state"
+          },
+          "04": {
+              "name": "Araucania",
+              "cities": {
+                  "9637": {
+                      "name": "Angol",
+                      "coordinates": "-37.8,-72.7167",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9650": {
+                      "name": "Carahue",
+                      "coordinates": "-38.708859,-73.16788099999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9658": {
+                      "name": "Collipulli",
+                      "coordinates": "-37.958269,-72.432119",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9668": {
+                      "name": "Freire",
+                      "coordinates": "-38.9573,-72.626929",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9677": {
+                      "name": "Lautaro",
+                      "coordinates": "-38.508431,-72.454134",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9682": {
+                      "name": "Loncoche",
+                      "coordinates": "-39.36812,-72.631513",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9693": {
+                      "name": "Nueva Imperial",
+                      "coordinates": "-38.744522,-72.948228",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9701": {
+                      "name": "Pitrufquen",
+                      "coordinates": "-38.9833,-72.64173099999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9725": {
+                      "name": "Temuco",
+                      "coordinates": "-38.73383,-72.584496",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9729": {
+                      "name": "Traiguen",
+                      "coordinates": "-38.25,-72.6833",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9733": {
+                      "name": "Victoria",
+                      "coordinates": "-38.231466,-72.35101899999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9735": {
+                      "name": "Vilcun",
+                      "coordinates": "-38.667719,-72.224441",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9737": {
+                      "name": "Villarrica",
+                      "coordinates": "-39.282012,-72.23078",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-38.948921,-72.331113",
+              "coordinates_accuracy_level": "state"
+          },
+          "05": {
+              "name": "Atacama",
+              "cities": {
+                  "9661": {
+                      "name": "Copiapo",
+                      "coordinates": "-27.366359,-70.33223700000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9666": {
+                      "name": "Diego De Almagro",
+                      "coordinates": "-26.390249,-70.04752999999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9731": {
+                      "name": "Vallenar",
+                      "coordinates": "-28.575795,-70.75710100000001",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-27.566056,-70.050314",
+              "coordinates_accuracy_level": "state"
+          },
+          "06": {
+              "name": "Bio-Bio",
+              "cities": {
+                  "9639": {
+                      "name": "Arauco",
+                      "coordinates": "-37.245777,-73.316664",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9642": {
+                      "name": "Bulnes",
+                      "coordinates": "-36.742159,-72.301772",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9644": {
+                      "name": "Cabrero",
+                      "coordinates": "-37.0333,-72.40000000000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9649": {
+                      "name": "Canete",
+                      "coordinates": "-37.80582,-73.391974",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9653": {
+                      "name": "Chiguayante",
+                      "coordinates": "-36.934419,-73.02201599999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9654": {
+                      "name": "Chillan",
+                      "coordinates": "-36.609354,-72.102423",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9657": {
+                      "name": "Coihueco",
+                      "coordinates": "-36.629103,-71.83270899999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9659": {
+                      "name": "Concepcion",
+                      "coordinates": "-36.818938,-73.050319",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9663": {
+                      "name": "Coronel",
+                      "coordinates": "-37.029638,-73.144352",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9664": {
+                      "name": "Curanilahue",
+                      "coordinates": "-37.476243,-73.342124",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9672": {
+                      "name": "Laja",
+                      "coordinates": "-37.271425,-72.719491",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9678": {
+                      "name": "Lebu",
+                      "coordinates": "-37.609714,-73.648329",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9685": {
+                      "name": "Los Angeles",
+                      "coordinates": "-37.472872,-72.35445199999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9686": {
+                      "name": "Lota",
+                      "coordinates": "-37.092058,-73.154582",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9691": {
+                      "name": "Mulchen",
+                      "coordinates": "-37.717881,-72.23743399999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9692": {
+                      "name": "Nacimiento",
+                      "coordinates": "-37.505906,-72.673788",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9700": {
+                      "name": "Penco",
+                      "coordinates": "-36.7333,-72.9833",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9714": {
+                      "name": "San Carlos",
+                      "coordinates": "-36.42615,-71.970834",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9722": {
+                      "name": "Talcahuano",
+                      "coordinates": "-36.723928,-73.11309900000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9728": {
+                      "name": "Tome",
+                      "coordinates": "-36.613156,-72.958859",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9739": {
+                      "name": "Yumbel",
+                      "coordinates": "-37.0833,-72.5667",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-36.977721,-72.331113",
+              "coordinates_accuracy_level": "state"
+          },
+          "07": {
+              "name": "Coquimbo",
+              "cities": {
+                  "9662": {
+                      "name": "Coquimbo",
+                      "coordinates": "-29.9533,-71.3436",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9670": {
+                      "name": "Illapel",
+                      "coordinates": "-31.6308,-71.1653",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9675": {
+                      "name": "La Serena",
+                      "coordinates": "-29.906301,-71.250204",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9690": {
+                      "name": "Monte Patria",
+                      "coordinates": "-30.697894,-70.95868900000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9695": {
+                      "name": "Ovalle",
+                      "coordinates": "-30.59829999999999,-71.2003",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9711": {
+                      "name": "Salamanca",
+                      "coordinates": "-31.782493,-70.960711",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9734": {
+                      "name": "Vicuna",
+                      "coordinates": "-30.0319,-70.7081",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-29.9533,-71.3436",
+              "coordinates_accuracy_level": "state"
+          },
+          "08": {
+              "name": "Libertador General Bernardo O'H",
+              "cities": {
+                  "9655": {
+                      "name": "Chimbarongo",
+                      "coordinates": "-35.675147,-71.542969",
+                      "coordinates_accuracy_level": "country"
+                  },
+                  "9669": {
+                      "name": "Graneros",
+                      "coordinates": "-35.675147,-71.542969",
+                      "coordinates_accuracy_level": "country"
+                  },
+                  "9687": {
+                      "name": "Machali",
+                      "coordinates": "-35.675147,-71.542969",
+                      "coordinates_accuracy_level": "country"
+                  },
+                  "9708": {
+                      "name": "Rancagua",
+                      "coordinates": "-35.675147,-71.542969",
+                      "coordinates_accuracy_level": "country"
+                  },
+                  "9709": {
+                      "name": "Rengo",
+                      "coordinates": "-35.675147,-71.542969",
+                      "coordinates_accuracy_level": "country"
+                  },
+                  "9718": {
+                      "name": "Santa Cruz",
+                      "coordinates": "-35.675147,-71.542969",
+                      "coordinates_accuracy_level": "country"
+                  },
+                  "9720": {
+                      "name": "San Vicente",
+                      "coordinates": "-35.675147,-71.542969",
+                      "coordinates_accuracy_level": "country"
+                  }
+              },
+              "coordinates": "-35.675147,-71.542969",
+              "coordinates_accuracy_level": "country"
+          },
+          "09": {
+              "name": "Los Lagos",
+              "cities": {
+                  "9636": {
+                      "name": "Ancud",
+                      "coordinates": "-41.8675,-73.827697",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9646": {
+                      "name": "Calbuco",
+                      "coordinates": "-41.772016,-73.13270900000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9651": {
+                      "name": "Castro",
+                      "coordinates": "-42.48014,-73.76241400000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9676": {
+                      "name": "La Union",
+                      "coordinates": "-40.295275,-73.079328",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9694": {
+                      "name": "Osorno",
+                      "coordinates": "-40.574506,-73.131918",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9697": {
+                      "name": "Panguipulli",
+                      "coordinates": "-41.919778,-72.14161300000001",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "9702": {
+                      "name": "Puerto Montt",
+                      "coordinates": "-41.4717,-72.93689999999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9703": {
+                      "name": "Puerto Varas",
+                      "coordinates": "-41.3167,-72.9833",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9705": {
+                      "name": "Purranque",
+                      "coordinates": "-40.908431,-73.16610900000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9710": {
+                      "name": "Rio Bueno",
+                      "coordinates": "-40.331342,-72.948537",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "9730": {
+                      "name": "Valdivia",
+                      "coordinates": "-39.862498,-72.81855899999999",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-41.919778,-72.14161300000001",
+              "coordinates_accuracy_level": "state"
+          }
+      },
+      "coordinates": "-35.675147,-71.542969",
+      "coordinates_accuracy_level": "country"
+  },
+  "PE": {
+      "name": "Peru",
+      "states": {
+          "10": {
+              "name": "Huanuco",
+              "cities": {
+                  "31261": {
+                      "name": "Ambo",
+                      "coordinates": "-10.133333,-76.2",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31326": {
+                      "name": "Huallanca",
+                      "coordinates": "-9.880857000000001,-76.956749",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31333": {
+                      "name": "Huanuco",
+                      "coordinates": "-9.929463999999999,-76.23971400000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31369": {
+                      "name": "La Union",
+                      "coordinates": "-9.774412999999999,-76.785759",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31373": {
+                      "name": "Llata",
+                      "coordinates": "-9.550000000000001,-76.816667",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31457": {
+                      "name": "San Miguel De Cauri",
+                      "coordinates": "-10.10712,-76.60127300000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31495": {
+                      "name": "Tingo Maria",
+                      "coordinates": "-9.29528,-75.99754299999999",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-9.929463999999999,-76.23971400000001",
+              "coordinates_accuracy_level": "state"
+          },
+          "11": {
+              "name": "Ica",
+              "cities": {
+                  "31304": {
+                      "name": "Chincha Alta",
+                      "coordinates": "-13.42553,-76.13671100000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31343": {
+                      "name": "Ica",
+                      "coordinates": "-14.06394,-75.743988",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31375": {
+                      "name": "Los Aquijes",
+                      "coordinates": "-14.09934,-75.68917",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31380": {
+                      "name": "Marcona",
+                      "coordinates": "-15.2,-75.066667",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31394": {
+                      "name": "Nazca",
+                      "coordinates": "-14.8391,-74.94032300000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31411": {
+                      "name": "Palpa",
+                      "coordinates": "-14.533933,-75.185483",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31423": {
+                      "name": "Pisco",
+                      "coordinates": "-13.709981,-76.20320599999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31442": {
+                      "name": "Rio Grande",
+                      "coordinates": "-14.52053,-75.201958",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31449": {
+                      "name": "San Clemente",
+                      "coordinates": "-13.680858,-76.158085",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31455": {
+                      "name": "San Juan Bautista",
+                      "coordinates": "-14.012243,-75.736422",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31470": {
+                      "name": "Santiago",
+                      "coordinates": "-14.176111,-75.716796",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31482": {
+                      "name": "Subtanjalla",
+                      "coordinates": "-14.06394,-75.743988",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "31510": {
+                      "name": "Vista Alegre",
+                      "coordinates": "-14.8478,-74.942722",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-14.06394,-75.743988",
+              "coordinates_accuracy_level": "state"
+          },
+          "12": {
+              "name": "Junin",
+              "cities": {
+                  "31259": {
+                      "name": "Acolla",
+                      "coordinates": "-11.73804,-75.547943",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31287": {
+                      "name": "Carhuamayo",
+                      "coordinates": "-10.920784,-76.05949699999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31311": {
+                      "name": "Chupaca",
+                      "coordinates": "-12.062003,-75.287178",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31314": {
+                      "name": "Concepcion",
+                      "coordinates": "-11.918478,-75.312889",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31331": {
+                      "name": "Huancayo",
+                      "coordinates": "-12.066667,-75.216667",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31338": {
+                      "name": "Huasahuasi",
+                      "coordinates": "-11.264801,-75.649175",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31340": {
+                      "name": "Huayucachi",
+                      "coordinates": "-12.15024,-75.229111",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31351": {
+                      "name": "Jauja",
+                      "coordinates": "-11.775,-75.5",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31357": {
+                      "name": "Junin",
+                      "coordinates": "-11.15,-75.983333",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31365": {
+                      "name": "La Oroya",
+                      "coordinates": "-11.525402,-75.898415",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31382": {
+                      "name": "Mazamari",
+                      "coordinates": "-11.35,-74.566667",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31388": {
+                      "name": "Morococha",
+                      "coordinates": "-11.61131,-76.139236",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31400": {
+                      "name": "Orcotuna",
+                      "coordinates": "-11.968453,-75.30914799999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31418": {
+                      "name": "Perene",
+                      "coordinates": "-10.947222,-75.226111",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31421": {
+                      "name": "Pilcomayo",
+                      "coordinates": "-12.043153,-75.250823",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31447": {
+                      "name": "San Agustin",
+                      "coordinates": "-11.972524,-75.25519799999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31451": {
+                      "name": "San Jeronimo De Tunan",
+                      "coordinates": "-11.335798,-75.341218",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "31459": {
+                      "name": "San Pedro De Cajas",
+                      "coordinates": "-11.249662,-75.863562",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31461": {
+                      "name": "San Ramon",
+                      "coordinates": "-11.124722,-75.356944",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31475": {
+                      "name": "Satipo",
+                      "coordinates": "-11.254228,-74.636736",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31479": {
+                      "name": "Sicaya",
+                      "coordinates": "-12.015194,-75.28015000000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31494": {
+                      "name": "Tarma",
+                      "coordinates": "-11.469127,-75.68480700000001",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-11.335798,-75.341218",
+              "coordinates_accuracy_level": "state"
+          },
+          "13": {
+              "name": "La Libertad",
+              "cities": {
+                  "31265": {
+                      "name": "Ascope",
+                      "coordinates": "-7.713828,-79.10766700000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31298": {
+                      "name": "Chepen",
+                      "coordinates": "-7.227131,-79.42983599999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31299": {
+                      "name": "Chicama",
+                      "coordinates": "-7.847061,-79.14836099999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31306": {
+                      "name": "Chocope",
+                      "coordinates": "-7.789145,-79.22393",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31324": {
+                      "name": "Guadalupe",
+                      "coordinates": "-7.247041000000001,-79.473122",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31328": {
+                      "name": "Huamachuco",
+                      "coordinates": "-7.812098000000001,-78.048698",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31367": {
+                      "name": "Laredo",
+                      "coordinates": "-8.081994,-78.962762",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31383": {
+                      "name": "Moche",
+                      "coordinates": "-8.163703999999999,-79.002342",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31402": {
+                      "name": "Otuzco",
+                      "coordinates": "-7.905786,-78.564369",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31406": {
+                      "name": "Pacanga",
+                      "coordinates": "-7.173734,-79.48445",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31407": {
+                      "name": "Pacasmayo",
+                      "coordinates": "-7.400599,-79.562592",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31409": {
+                      "name": "Paijan",
+                      "coordinates": "-7.731076,-79.30387899999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31427": {
+                      "name": "Pucara",
+                      "coordinates": "-8.143592999999999,-78.475194",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "31428": {
+                      "name": "Pueblo Nuevo",
+                      "coordinates": "-7.191671,-79.513972",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31437": {
+                      "name": "Quiruvilca",
+                      "coordinates": "-8.143592999999999,-78.475194",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "31445": {
+                      "name": "Salaverry",
+                      "coordinates": "-8.221111000000001,-78.976111",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31460": {
+                      "name": "San Pedro De Lloc",
+                      "coordinates": "-7.4267,-79.5038",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31468": {
+                      "name": "Santiago De Cao",
+                      "coordinates": "-7.959578,-79.241676",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31469": {
+                      "name": "Santiago De Chuco",
+                      "coordinates": "-8.150396000000001,-78.178383",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31499": {
+                      "name": "Trujillo",
+                      "coordinates": "-8.112,-79.0288",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31509": {
+                      "name": "Viru",
+                      "coordinates": "-8.429314,-78.773123",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-8.143592999999999,-78.475194",
+              "coordinates_accuracy_level": "state"
+          },
+          "14": {
+              "name": "Lambayeque",
+              "cities": {
+                  "31301": {
+                      "name": "Chiclayo",
+                      "coordinates": "-6.776566,-79.84648",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31307": {
+                      "name": "Chongoyape",
+                      "coordinates": "-6.637649999999999,-79.38879",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31322": {
+                      "name": "Eten",
+                      "coordinates": "-6.917115,-79.866084",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31323": {
+                      "name": "Ferrenafe",
+                      "coordinates": "-6.638223,-79.790448",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31346": {
+                      "name": "Illimo",
+                      "coordinates": "-6.420279999999999,-79.83181",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31352": {
+                      "name": "Jayanca",
+                      "coordinates": "-6.392981,-79.822671",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31363": {
+                      "name": "Lambayeque",
+                      "coordinates": "-6.700000000000001,-79.90000000000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31384": {
+                      "name": "Mochumi",
+                      "coordinates": "-6.54771,-79.861397",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31386": {
+                      "name": "Monsefu",
+                      "coordinates": "-6.877836,-79.87186699999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31389": {
+                      "name": "Morrope",
+                      "coordinates": "-6.533932,-80.011589",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31391": {
+                      "name": "Motupe",
+                      "coordinates": "-6.154322,-79.71115899999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31398": {
+                      "name": "Olmos",
+                      "coordinates": "-5.985775,-79.744049",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31405": {
+                      "name": "Oyotun",
+                      "coordinates": "-6.851571,-79.30296300000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31420": {
+                      "name": "Picsi",
+                      "coordinates": "-6.719547,-79.77082799999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31422": {
+                      "name": "Pimentel",
+                      "coordinates": "-6.83314,-79.92652099999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31429": {
+                      "name": "Pueblo Nuevo",
+                      "coordinates": "-6.477653,-79.91927",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "31440": {
+                      "name": "Reque",
+                      "coordinates": "-6.863125,-79.815667",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31444": {
+                      "name": "Salas",
+                      "coordinates": "-6.274931,-79.602707",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31448": {
+                      "name": "Sana",
+                      "coordinates": "-6.916876,-79.576553",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31454": {
+                      "name": "San Jose",
+                      "coordinates": "-6.764575999999999,-79.96822899999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31466": {
+                      "name": "Santa Rosa",
+                      "coordinates": "-6.477653,-79.91927",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "31500": {
+                      "name": "Tucume",
+                      "coordinates": "-6.515580999999999,-79.84368000000001",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-6.477653,-79.91927",
+              "coordinates_accuracy_level": "state"
+          },
+          "15": {
+              "name": "Lima",
+              "cities": {
+                  "31273": {
+                      "name": "Barranca",
+                      "coordinates": "-10.754069,-77.760994",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31283": {
+                      "name": "Caleta De Carquin",
+                      "coordinates": "-11.089598,-77.62837500000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31295": {
+                      "name": "Chancay",
+                      "coordinates": "-11.56573,-77.2715",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31300": {
+                      "name": "Chicla",
+                      "coordinates": "-11.704436,-76.266739",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31302": {
+                      "name": "Chilca",
+                      "coordinates": "-12.51932,-76.73886899999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31308": {
+                      "name": "Chosica",
+                      "coordinates": "-11.952275,-76.81443",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31325": {
+                      "name": "Huacho",
+                      "coordinates": "-11.124074,-77.602057",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31327": {
+                      "name": "Hualmay",
+                      "coordinates": "-11.088343,-77.610651",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31334": {
+                      "name": "Huaral",
+                      "coordinates": "-11.50076,-77.20906100000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31339": {
+                      "name": "Huaura",
+                      "coordinates": "-11.069035,-77.613516",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31348": {
+                      "name": "Imperial",
+                      "coordinates": "-13.029529,-76.375305",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31371": {
+                      "name": "Lima",
+                      "coordinates": "-12.047816,-77.062203",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31377": {
+                      "name": "Mala",
+                      "coordinates": "-12.6629,-76.63954200000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31381": {
+                      "name": "Matucana",
+                      "coordinates": "-11.844722,-76.386111",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31395": {
+                      "name": "Nicolas De Pierola",
+                      "coordinates": "-12.052519,-77.03336299999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31396": {
+                      "name": "Nuevo Imperial",
+                      "coordinates": "-12.921439,-76.247912",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31404": {
+                      "name": "Oyon",
+                      "coordinates": "-10.669167,-76.772778",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31415": {
+                      "name": "Paramonga",
+                      "coordinates": "-10.678465,-77.819574",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31416": {
+                      "name": "Pativilca",
+                      "coordinates": "-10.695833,-77.77416700000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31436": {
+                      "name": "Quilmana",
+                      "coordinates": "-12.959444,-76.38805600000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31441": {
+                      "name": "Ricardo Palma",
+                      "coordinates": "-12.047816,-77.062203",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "31456": {
+                      "name": "San Luis",
+                      "coordinates": "-12.075471,-76.995987",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31463": {
+                      "name": "Santa Eulalia",
+                      "coordinates": "-11.90193,-76.66581600000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31465": {
+                      "name": "Santa Maria",
+                      "coordinates": "-11.091667,-77.57305599999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31472": {
+                      "name": "San Vicente De Canete",
+                      "coordinates": "-13.083333,-76.40000000000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31477": {
+                      "name": "Sayan",
+                      "coordinates": "-11.137463,-77.1974",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31484": {
+                      "name": "Supe",
+                      "coordinates": "-10.798752,-77.713731",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31505": {
+                      "name": "Vegueta",
+                      "coordinates": "-11.021607,-77.640726",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-12.047816,-77.062203",
+              "coordinates_accuracy_level": "state"
+          },
+          "16": {
+              "name": "Loreto",
+              "cities": {
+                  "31274": {
+                      "name": "Barranca",
+                      "coordinates": "-4.832189,-76.697867",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31315": {
+                      "name": "Contamana",
+                      "coordinates": "-7.344965,-75.011841",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31349": {
+                      "name": "Iquitos",
+                      "coordinates": "-3.75,-73.25",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31360": {
+                      "name": "Lagunas",
+                      "coordinates": "-5.236893,-75.655721",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31393": {
+                      "name": "Nauta",
+                      "coordinates": "-4.486462,-73.594746",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31438": {
+                      "name": "Ramon Castilla",
+                      "coordinates": "-3.74862,-73.25190000000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31439": {
+                      "name": "Requena",
+                      "coordinates": "-4.986713,-73.984573",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31474": {
+                      "name": "Saquena",
+                      "coordinates": "-4.661684,-73.54468900000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31517": {
+                      "name": "Yurimaguas",
+                      "coordinates": "-5.902301,-76.12039799999999",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-4.232473,-74.217933",
+              "coordinates_accuracy_level": "state"
+          },
+          "17": {
+              "name": "Madre de Dios",
+              "cities": {
+                  "31342": {
+                      "name": "Iberia",
+                      "coordinates": "-11.40531,-69.493351",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31430": {
+                      "name": "Puerto Maldonado",
+                      "coordinates": "-12.60342,-69.19188699999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31491": {
+                      "name": "Tambopata",
+                      "coordinates": "-12.219939,-69.859741",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-11.76687,-70.811995",
+              "coordinates_accuracy_level": "state"
+          },
+          "18": {
+              "name": "Moquegua",
+              "cities": {
+                  "31347": {
+                      "name": "Ilo",
+                      "coordinates": "-17.645309,-71.336029",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31387": {
+                      "name": "Moquegua",
+                      "coordinates": "-17.193951,-70.931183",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31408": {
+                      "name": "Pacocha",
+                      "coordinates": "-17.613221,-71.337901",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31498": {
+                      "name": "Torata",
+                      "coordinates": "-17.079109,-70.841454",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31515": {
+                      "name": "Yunguyo",
+                      "coordinates": "-16.942837,-71.00223099999999",
+                      "coordinates_accuracy_level": "state"
+                  }
+              },
+              "coordinates": "-16.942837,-71.00223099999999",
+              "coordinates_accuracy_level": "state"
+          },
+          "19": {
+              "name": "Pasco",
+              "cities": {
+                  "31293": {
+                      "name": "Cerro De Pasco",
+                      "coordinates": "-10.686389,-76.2625",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31296": {
+                      "name": "Chaupimarca",
+                      "coordinates": "-10.447575,-75.154538",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "31403": {
+                      "name": "Oxapampa",
+                      "coordinates": "-10.590278,-75.398611",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31496": {
+                      "name": "Tinyahuarco",
+                      "coordinates": "-10.865833,-76.534722",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31508": {
+                      "name": "Villa Rica",
+                      "coordinates": "-10.72948,-75.270409",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31511": {
+                      "name": "Yanacancha",
+                      "coordinates": "-10.447575,-75.154538",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "31512": {
+                      "name": "Yanahuanca",
+                      "coordinates": "-10.036465,-75.569517",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-10.447575,-75.154538",
+              "coordinates_accuracy_level": "state"
+          },
+          "20": {
+              "name": "Piura",
+              "cities": {
+                  "31266": {
+                      "name": "Ayabaca",
+                      "coordinates": "-4.641182,-79.713516",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31277": {
+                      "name": "Bernal",
+                      "coordinates": "-5.470381,-80.747771",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31278": {
+                      "name": "Buenos Aires",
+                      "coordinates": "-5.2607,-79.96489",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31291": {
+                      "name": "Catacaos",
+                      "coordinates": "-5.266569,-80.676857",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31310": {
+                      "name": "Chulucanas",
+                      "coordinates": "-5.099722,-80.16194400000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31313": {
+                      "name": "Colan",
+                      "coordinates": "-5.011594,-81.061666",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31321": {
+                      "name": "El Alto",
+                      "coordinates": "-4.270039,-81.213326",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31329": {
+                      "name": "Huancabamba",
+                      "coordinates": "-5.234365,-79.446602",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31358": {
+                      "name": "La Arena",
+                      "coordinates": "-5.34167,-80.707581",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31359": {
+                      "name": "La Brea",
+                      "coordinates": "-4.683333,-81.09999999999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31361": {
+                      "name": "La Huaca",
+                      "coordinates": "-4.911267,-80.95809300000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31368": {
+                      "name": "Las Lomas",
+                      "coordinates": "-4.65327,-80.24189",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31370": {
+                      "name": "La Union",
+                      "coordinates": "-5.391436,-80.749156",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31378": {
+                      "name": "Mancora",
+                      "coordinates": "-4.1,-81.05",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31379": {
+                      "name": "Marcavelica",
+                      "coordinates": "-4.868157,-80.713126",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31390": {
+                      "name": "Morropon",
+                      "coordinates": "-5.185421,-79.96938299999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31410": {
+                      "name": "Paita",
+                      "coordinates": "-5.085,-81.099722",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31424": {
+                      "name": "Piura",
+                      "coordinates": "-5.2,-80.63333299999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31435": {
+                      "name": "Querecotillo",
+                      "coordinates": "-4.837793,-80.647952",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31446": {
+                      "name": "Salitral",
+                      "coordinates": "-4.861348,-80.684012",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31478": {
+                      "name": "Sechura",
+                      "coordinates": "-5.558964,-80.817108",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31483": {
+                      "name": "Sullana",
+                      "coordinates": "-4.9,-80.683333",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31487": {
+                      "name": "Talara",
+                      "coordinates": "-4.579903,-81.271878",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31489": {
+                      "name": "Tamarindo",
+                      "coordinates": "-4.876835,-80.973292",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31490": {
+                      "name": "Tambo Grande",
+                      "coordinates": "-4.93238,-80.341667",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31506": {
+                      "name": "Vice",
+                      "coordinates": "-5.420285,-80.774091",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31507": {
+                      "name": "Vichayal",
+                      "coordinates": "-4.872136,-81.10167800000001",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-5.2,-80.63333299999999",
+              "coordinates_accuracy_level": "state"
+          },
+          "21": {
+              "name": "Puno",
+              "cities": {
+                  "31268": {
+                      "name": "Ayaviri",
+                      "coordinates": "-14.881822,-70.59006100000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31270": {
+                      "name": "Azangaro",
+                      "coordinates": "-14.909889,-70.197417",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31320": {
+                      "name": "Desaguadero",
+                      "coordinates": "-16.563125,-69.040395",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31345": {
+                      "name": "Ilave",
+                      "coordinates": "-16.088091,-69.63215599999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31355": {
+                      "name": "Juliaca",
+                      "coordinates": "-15.49918,-70.135223",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31356": {
+                      "name": "Juli",
+                      "coordinates": "-16.214287,-69.457598",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31364": {
+                      "name": "Lampa",
+                      "coordinates": "-15.363611,-70.365556",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31376": {
+                      "name": "Macusani",
+                      "coordinates": "-14.0685,-70.431417",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31397": {
+                      "name": "Nunoa",
+                      "coordinates": "-14.476025,-70.63655",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31431": {
+                      "name": "Puno",
+                      "coordinates": "-15.843333,-70.023611",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31434": {
+                      "name": "Putina",
+                      "coordinates": "-15.458287,-69.433762",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31464": {
+                      "name": "Santa Lucia",
+                      "coordinates": "-15.695556,-70.609167",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-15.843333,-70.023611",
+              "coordinates_accuracy_level": "state"
+          },
+          "22": {
+              "name": "San Martin",
+              "cities": {
+                  "31276": {
+                      "name": "Bellavista",
+                      "coordinates": "-7.059639000000001,-76.58406100000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31297": {
+                      "name": "Chazuta",
+                      "coordinates": "-6.571986,-76.130478",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31341": {
+                      "name": "Huicungo",
+                      "coordinates": "-7.319504,-76.776932",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31353": {
+                      "name": "Jepelacio",
+                      "coordinates": "-6.107628,-76.92295799999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31354": {
+                      "name": "Juanjui",
+                      "coordinates": "-7.180238999999999,-76.726467",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31362": {
+                      "name": "Lamas",
+                      "coordinates": "-6.427408,-76.51928700000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31392": {
+                      "name": "Moyobamba",
+                      "coordinates": "-6.033333,-76.966667",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31419": {
+                      "name": "Picota",
+                      "coordinates": "-6.920705999999999,-76.330342",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31443": {
+                      "name": "Rioja",
+                      "coordinates": "-6.061222999999999,-77.170067",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31453": {
+                      "name": "San Jose De Sisa",
+                      "coordinates": "-6.614042000000001,-76.69035700000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31473": {
+                      "name": "Saposoa",
+                      "coordinates": "-6.936366999999999,-76.771817",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31476": {
+                      "name": "Sauce",
+                      "coordinates": "-6.689385999999999,-76.21025",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31481": {
+                      "name": "Soritor",
+                      "coordinates": "-6.138273,-77.09673600000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31485": {
+                      "name": "Tabalosos",
+                      "coordinates": "-6.388623,-76.63260699999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31497": {
+                      "name": "Tocache",
+                      "coordinates": "-8.188597,-76.510294",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31502": {
+                      "name": "Uchiza",
+                      "coordinates": "-8.463008,-76.45920099999999",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-7.244488,-76.825965",
+              "coordinates_accuracy_level": "state"
+          },
+          "23": {
+              "name": "Tacna",
+              "cities": {
+                  "31344": {
+                      "name": "Ilabaya",
+                      "coordinates": "-17.420402,-70.51273399999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31486": {
+                      "name": "Tacna",
+                      "coordinates": "-18.01757,-70.250969",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31493": {
+                      "name": "Tarata",
+                      "coordinates": "-17.477608,-70.033939",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-18.01757,-70.250969",
+              "coordinates_accuracy_level": "state"
+          },
+          "24": {
+              "name": "Tumbes",
+              "cities": {
+                  "31260": {
+                      "name": "Aguas Verdes",
+                      "coordinates": "-3.483333,-80.25",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31414": {
+                      "name": "Papayal",
+                      "coordinates": "-4.157778,-80.654444",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31501": {
+                      "name": "Tumbes",
+                      "coordinates": "-3.566667,-80.45",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31518": {
+                      "name": "Zarumilla",
+                      "coordinates": "-3.502489999999999,-80.273946",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31519": {
+                      "name": "Zorritos",
+                      "coordinates": "-3.681701,-80.679852",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-3.566667,-80.45",
+              "coordinates_accuracy_level": "state"
+          },
+          "25": {
+              "name": "Ucayali",
+              "cities": {
+                  "31285": {
+                      "name": "Campoverde",
+                      "coordinates": "-8.475277999999999,-74.80583300000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31426": {
+                      "name": "Pucallpa",
+                      "coordinates": "-8.383333,-74.55",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-9.825118,-73.087749",
+              "coordinates_accuracy_level": "state"
+          },
+          "01": {
+              "name": "Amazonas",
+              "cities": {
+                  "31271": {
+                      "name": "Bagua Grande",
+                      "coordinates": "-5.757331,-78.450592",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31281": {
+                      "name": "Cajaruro",
+                      "coordinates": "-5.736000000000001,-78.426",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31294": {
+                      "name": "Chachapoyas",
+                      "coordinates": "-6.216667,-77.84999999999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31366": {
+                      "name": "La Peca",
+                      "coordinates": "-5.611111,-78.435",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-5.115146,-78.110828",
+              "coordinates_accuracy_level": "state"
+          },
+          "02": {
+              "name": "Ancash",
+              "cities": {
+                  "31286": {
+                      "name": "Caraz",
+                      "coordinates": "-9.050000000000001,-77.81",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31288": {
+                      "name": "Carhuaz",
+                      "coordinates": "-9.281389000000001,-77.646389",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31290": {
+                      "name": "Casma",
+                      "coordinates": "-9.467000000000001,-78.31699999999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31303": {
+                      "name": "Chimbote",
+                      "coordinates": "-9.074543999999999,-78.59357199999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31335": {
+                      "name": "Huaraz",
+                      "coordinates": "-9.533333000000001,-77.533333",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31336": {
+                      "name": "Huari",
+                      "coordinates": "-9.36903,-77.23683200000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31337": {
+                      "name": "Huarmey",
+                      "coordinates": "-10.068611,-78.16027800000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31425": {
+                      "name": "Pomabamba",
+                      "coordinates": "-8.82,-77.460556",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31467": {
+                      "name": "Santa",
+                      "coordinates": "-8.987601,-78.614338",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31513": {
+                      "name": "Yauya",
+                      "coordinates": "-9.325049999999999,-77.561942",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "31514": {
+                      "name": "Yungay",
+                      "coordinates": "-9.139272,-77.74552199999999",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-9.325049999999999,-77.561942",
+              "coordinates_accuracy_level": "state"
+          },
+          "03": {
+              "name": "Apurimac",
+              "cities": {
+                  "31256": {
+                      "name": "Abancay",
+                      "coordinates": "-13.633333,-72.88333299999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31262": {
+                      "name": "Andahuaylas",
+                      "coordinates": "-13.6575,-73.38333299999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31452": {
+                      "name": "San Jeronimo",
+                      "coordinates": "-13.651,-73.36499999999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31488": {
+                      "name": "Talavera",
+                      "coordinates": "-13.652581,-73.42833400000001",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-14.050453,-73.087749",
+              "coordinates_accuracy_level": "state"
+          },
+          "04": {
+              "name": "Arequipa",
+              "cities": {
+                  "31257": {
+                      "name": "Acari",
+                      "coordinates": "-15.438456,-74.618083",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31264": {
+                      "name": "Arequipa",
+                      "coordinates": "-16.398822,-71.536886",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31284": {
+                      "name": "Camana",
+                      "coordinates": "-16.62356,-72.709183",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31305": {
+                      "name": "Chivay",
+                      "coordinates": "-15.633333,-71.59999999999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31312": {
+                      "name": "Cocachacra",
+                      "coordinates": "-17.09399,-71.764374",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31317": {
+                      "name": "Corrales",
+                      "coordinates": "-16.398822,-71.536886",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "31374": {
+                      "name": "Lluta",
+                      "coordinates": "-16.015997,-72.01496400000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31385": {
+                      "name": "Mollendo",
+                      "coordinates": "-17.016667,-72.016667",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31399": {
+                      "name": "Orcopampa",
+                      "coordinates": "-15.267332,-72.33999300000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31432": {
+                      "name": "Punta De Bombon",
+                      "coordinates": "-17.16946,-71.788017",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31516": {
+                      "name": "Yura",
+                      "coordinates": "-16.311087,-71.631736",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-16.398822,-71.536886",
+              "coordinates_accuracy_level": "state"
+          },
+          "05": {
+              "name": "Ayacucho",
+              "cities": {
+                  "31267": {
+                      "name": "Ayacucho",
+                      "coordinates": "-13.163056,-74.22444400000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31269": {
+                      "name": "Ayna",
+                      "coordinates": "-12.66933,-73.922768",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31316": {
+                      "name": "Coracora",
+                      "coordinates": "-15.016994,-73.78041899999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31332": {
+                      "name": "Huanta",
+                      "coordinates": "-12.939722,-74.2475",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31433": {
+                      "name": "Puquio",
+                      "coordinates": "-14.693889,-74.124167",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31458": {
+                      "name": "San Miguel",
+                      "coordinates": "-13.012606,-73.980964",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31492": {
+                      "name": "Tambo",
+                      "coordinates": "-12.95689,-74.02319300000001",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-13.163056,-74.22444400000001",
+              "coordinates_accuracy_level": "state"
+          },
+          "06": {
+              "name": "Cajamarca",
+              "cities": {
+                  "31272": {
+                      "name": "Bambamarca",
+                      "coordinates": "-6.680216,-78.52160600000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31275": {
+                      "name": "Bellavista",
+                      "coordinates": "-7.162099,-78.510628",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "31279": {
+                      "name": "Cajabamba",
+                      "coordinates": "-7.623722,-78.046031",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31280": {
+                      "name": "Cajamarca",
+                      "coordinates": "-7.162099,-78.510628",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31289": {
+                      "name": "Cascas",
+                      "coordinates": "-7.479722,-78.817778",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31292": {
+                      "name": "Celendin",
+                      "coordinates": "-6.865906,-78.144892",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31309": {
+                      "name": "Chota",
+                      "coordinates": "-6.561389,-78.648611",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31319": {
+                      "name": "Cutervo",
+                      "coordinates": "-6.380706,-78.817978",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31350": {
+                      "name": "Jaen",
+                      "coordinates": "-5.710183,-78.795563",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31450": {
+                      "name": "San Ignacio",
+                      "coordinates": "-5.146576,-79.002342",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-7.162099,-78.510628",
+              "coordinates_accuracy_level": "state"
+          },
+          "07": {
+              "name": "Callao",
+              "cities": {},
+              "coordinates": "-12.033333,-77.13333299999999",
+              "coordinates_accuracy_level": "state"
+          },
+          "08": {
+              "name": "Cusco",
+              "cities": {
+                  "31263": {
+                      "name": "Anta",
+                      "coordinates": "-13.525,-71.972222",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "31282": {
+                      "name": "Calca",
+                      "coordinates": "-13.32351,-71.96180699999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31318": {
+                      "name": "Cusco",
+                      "coordinates": "-13.525,-71.972222",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31401": {
+                      "name": "Oropesa",
+                      "coordinates": "-13.589434,-71.788937",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31413": {
+                      "name": "Pangoa",
+                      "coordinates": "-73,-12.116667",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31417": {
+                      "name": "Paucartambo",
+                      "coordinates": "-13.525,-71.972222",
+                      "coordinates_accuracy_level": "state"
+                  },
+                  "31462": {
+                      "name": "Santa Ana",
+                      "coordinates": "-13.515519,-71.98570100000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31471": {
+                      "name": "Santo Tomas",
+                      "coordinates": "-14.45,-72.080833",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31480": {
+                      "name": "Sicuani",
+                      "coordinates": "-14.28529,-71.22466300000001",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31503": {
+                      "name": "Urcos",
+                      "coordinates": "-13.686111,-71.622778",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31504": {
+                      "name": "Urubamba",
+                      "coordinates": "-13.304167,-72.11666700000001",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-13.525,-71.972222",
+              "coordinates_accuracy_level": "state"
+          },
+          "09": {
+              "name": "Huancavelica",
+              "cities": {
+                  "31258": {
+                      "name": "Acobamba",
+                      "coordinates": "-12.840833,-74.570556",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31330": {
+                      "name": "Huancavelica",
+                      "coordinates": "-12.786198,-74.97640199999999",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31372": {
+                      "name": "Lircay",
+                      "coordinates": "-12.989658,-74.720489",
+                      "coordinates_accuracy_level": "city"
+                  },
+                  "31412": {
+                      "name": "Pampas",
+                      "coordinates": "-12.4,-74.90000000000001",
+                      "coordinates_accuracy_level": "city"
+                  }
+              },
+              "coordinates": "-12.786198,-74.97640199999999",
+              "coordinates_accuracy_level": "state"
+          }
+      },
+      "coordinates": "-9.189966999999999,-75.015152",
+      "coordinates_accuracy_level": "country"
+  }
+}

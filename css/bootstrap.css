@@ -3991,7 +3991,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  /*background-color: #eee;*/
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4276,8 +4276,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 50px;
-  padding: 15px 15px;
+  height: 60px;
+  padding: 10px 10px;
   font-size: 18px;
   line-height: 20px;
 }
@@ -4496,7 +4496,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
+  /*background-color: #f8f8f8;*/
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -5452,11 +5452,12 @@ button.list-group-item-danger.active:focus {
 .panel {
   margin-bottom: 20px;
   background-color: #fff;
-  border-radius: 2px;
-  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
-          box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  border-radius: 4px;
+  -webkit-box-shadow: 5px 5px 5px 0px  rgba(47,54,61, 1);
+          box-shadow: 5 5px 5px 0px rgba(47,54,61, 1);
   background-color: rgba(47,54,61,0.4);
   background: url(../img/ui/witewall_3.png) repeat;
+
 }
 .panel-body {
   padding: 15px;
@@ -5707,7 +5708,6 @@ button.list-group-item-danger.active:focus {
 .panel-primary > .panel-heading {
   color: #fff;
   background-color: #337ab7;
-  border-color: #337ab7;
 }
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #337ab7;
@@ -5719,13 +5719,69 @@ button.list-group-item-danger.active:focus {
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #337ab7;
 }
+.panel-twitch {
+  border-color: #6441A5;
+  -webkit-box-shadow: 3px 3px 3px 0px  rgba(100,65,165, .5);
+          box-shadow: 3px 3px 3px 0px rgba(100,65,165, .5);
+}
+.panel-twitch > .panel-heading {
+  color: #fff;
+  background-color: #6441A5;
+}
+.panel-twitch > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #6441A5;
+}
+.panel-twitch > .panel-heading .badge {
+  color: #6441A5;
+  background-color: #fff;
+}
+.panel-twitch > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #6441A5;
+}
+.panel-youtube {
+  border-color: #cd201f;
+  -webkit-box-shadow: 3px 3px 3px 0px  rgba(205,32,31, .5);
+          box-shadow: 3px 3px 3px 0px rgba(205,32,31, .5);
+}
+.panel-youtube > .panel-heading {
+  color: #fff;
+  background-color: #cd201f;
+}
+.panel-youtube > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #cd201f;
+}
+.panel-youtube > .panel-heading .badge {
+  color: #cd201f;
+  background-color: #fff;
+}
+.panel-youtube > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #cd201f;
+}
+.panel-facebook {
+  border-color: #3b5998;
+  -webkit-box-shadow: 3px 3px 3px 0px  rgba(59,89,152, .5);
+          box-shadow: 3px 3px 3px 0px rgba(59,89,152, .5);
+}
+.panel-facebook > .panel-heading {
+  color: #fff;
+  background-color: #3b5998;
+}
+.panel-facebook > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #3b5998;
+}
+.panel-facebook > .panel-heading .badge {
+  color: #3b5998;
+  background-color: #fff;
+}
+.panel-facebook > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #3b5998;
+}
 .panel-success {
   border-color: #d6e9c6;
 }
 .panel-success > .panel-heading {
   color: #3c763d;
   background-color: #dff0d8;
-  border-color: #d6e9c6;
 }
 .panel-success > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #d6e9c6;
@@ -5743,7 +5799,6 @@ button.list-group-item-danger.active:focus {
 .panel-info > .panel-heading {
   color: #31708f;
   background-color: #d9edf7;
-  border-color: #bce8f1;
 }
 .panel-info > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #bce8f1;
@@ -5761,7 +5816,6 @@ button.list-group-item-danger.active:focus {
 .panel-warning > .panel-heading {
   color: #8a6d3b;
   background-color: #fcf8e3;
-  border-color: #faebcc;
 }
 .panel-warning > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #faebcc;
@@ -5779,7 +5833,6 @@ button.list-group-item-danger.active:focus {
 .panel-danger > .panel-heading {
   color: #a94442;
   background-color: #f2dede;
-  border-color: #ebccd1;
 }
 .panel-danger > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #ebccd1;

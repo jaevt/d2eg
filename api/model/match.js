@@ -1,8 +1,8 @@
 var mongoose     = require('mongoose');
 var Schema       = mongoose.Schema;
-var Team       = mongoose.model('Team');
-var Player       = mongoose.model('Player');
-var League      = mongoose.model('League');
+var Team       = mongoose.model('./team');
+var Player       = mongoose.model('./player');
+var League      = mongoose.model('./league');
 var connection = mongoose.createConnection('mongodb://localhost:27017/test');
 
 var MatchSchema   = new Schema({

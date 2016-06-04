@@ -1,33 +1,39 @@
+//
+// Module dependencies
+//
 var mongoose     = require('mongoose');
 var Schema       = mongoose.Schema;
-var Team       = require('./Team');
-var Player       = require('./Player');
 var connection = mongoose.createConnection('mongodb://localhost:27017/test');
-
+var Admin       = require('./admin');
 var LeagueSchema   = new Schema({
-  _id: Schema.ObjectId,
-  steamid: {type: String, unique: true},
   title: String,
-  avatar: String,
   description: String,
-  social: [{
-    title: String,
-    url: String,
-    icon: String
-  }],
-  streams:[{
-    title: String,
-    url: String,
-    icon: String,
-    live: {type: Boolean, default: false}
-  }],
-  teams:[{
-    team: {type: Schema.ObjectId, ref: "Team" },
-    favs: {type: Number, default:0},
-    players:[{
-      player:{ type: Schema.ObjectId, ref: "Player" }
+  rules: String,
+  avatar: String,
+  createdAt: {type:Date, default:Date.now()},
+  editedAt: {type:Date, default:Date.now()},
+  eventDate: {type:Date, default:Date.now()},
+  streams:{
+    type:[{
+      title: String,
+      url: String,
+      icon: String,
     }]
-  }]
+    ,default: null
+  },
+  battlefy:{
+    type:{
+      cuadros: String,
+      clasificados: String,
+      participantes: String,
+      join_button: String
+    },
+    default: null
+  },
+  admin:{
+    type: Schema.ObjectId,
+    ref: "Admin"
+  }
 });
 
 module.exports = connection.model('League', LeagueSchema);

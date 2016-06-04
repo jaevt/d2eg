@@ -1,113 +1,48 @@
 var express = require('express');
 var router = express.Router();
+var mongoose = require('mongoose');
+var Admin = require('./model/admin');
+
+router.post('/',function(req,res){
+  var admin = new Admin;
+  admin.mail = req.body.mail;
+  admin.pass = req.body.pass;
+  admin.realname = req.body.realname;
+  admin.personaname = req.body.personaname;
+  admin.save(function(err){
+    if(err) return res.json({"error": true, "mensaje": "No se pudo crear administrador",err});
+    return res.json({"mensaje":"Administrador creado"});
+  });
+});
+
+router.get('/:_id',function(req,res){
+  Admin.findById(req.params._id,function(err,admin){
+    if(err) return res.json({"error": true, "mensaje": "No se pudo acceder a los datos del Administrador",err});
+    return res.json({"mensaje": "Administrador encontrado" , "admin": admin});
+  });
+});
+
+router.post('/login',function(req,res){
+  Admin.findOne({mail:req.body.mail, pass:req.body.pass},function(err,admin){
+    if(err) return res.json({"error": true, "mensaje": "No se pudo acceder a los datos del Administrador",err});
+    if(admin) return res.json({"mensaje": "Contraseña correcta, se ha iniciado sesion", "admin":admin});
+    if(!admin) return res.json({"error": true, "mensaje": "Contraseña o correo incorrectos"});
+  });
+});
+
+router.put('/:_id',function(req,res){
+  Admin.findByIdAndUpdate(req.params._id,{
+    steamid: req.body.steamid,
+    account_id: req.body.account_id,
+    personaname: req.body.personaname,
+    realname: req.body.realname,
+    avatar: req.body.avatar
+  },function(err,admin){
+    if(err) return res.json({"error":true,"mensaje":"No se pudo editar el usuario",err});
+    return res.json({"mensaje": "Cuenta editada con exito", "admin":admin});
+  });
+});
 
 
-// 3    ADMIN CRUD
-// 3.a  admin CREATE
-//      IN {personaname,realname,avatar,price,capacity,admin_id}
-//      OUT {error,mensaje} || {mensaje}
-router.post('/admin', function(req, res){
-  var query = "INSERT INTO ??(??,??,??,??,??,??,??,??) VALUES (?,?,?,?,?)";
-  var table = [
-    "admin",
-    "personaname",
-    "realname",
-    "avatar",
-    "mail",
-    "pass",
-    "loccountrycode",
-    "locstatecode",
-    "loccityid",
-    req.body.personaname,
-    req.body.realname,
-    req.body.avatar,
-    req.body.mail,
-    md5(req.body.pass),
-    req.body.loccountrycode,
-    req.body.locstatecode,
-    req.body.loccityid
-  ];
-  query = mysql.format(query,table);
-  connection.query(query,function(err,rows){
-      if(err) {
-          res.json({"error" : true, "mensaje" : err});
-      } else {
-          res.json({"mensaje" : "Administrador agregado con exito."});
-      }
-  });
-});
-// 3.b  admin READ
-//      Devolvemos un admin indicado por su (id)
-//      IN {admin.id}
-//      OUT {league{league_id,steam_leagueid,name,avatar,description,capacity,price,admin_id}}
-router.get('/admin/:admin_id', function(req, res){
-  var query = "SELECT * FROM ?? WHERE ??=?";
-  var table = [
-    "admin",
-    "id",
-    req.params.admin_id
-  ];
-  query = mysql.format(query,table);
-  connection.query(query,function(err,rows){
-      if(err) {
-          res.json({"error" : true, "mensaje" : "Error executing MySQL query"});
-      } else {
-          res.json({"admin" : rows});
-      }
-  });
-});
-//3.c admin UPDATE
-// Actualizamos al admin con su (admin.id)
-router.put('/admin/:admin_id', function(req, res){
-  var query = "UPDATE ?? SET ??=?,??=?,??=?,??=?,??=?  WHERE ??=?";
-  var table = [
-    "admin",
-    "personaname",
-    "realname",
-    "avatar",
-    "mail",
-    "pass",
-    "loccountrycode",
-    "locstatecode",
-    "loccityid",
-    "id",
-    req.body.personaname,
-    req.body.realname,
-    req.body.avatar,
-    req.body.mail,
-    md5(req.body.pass),
-    req.body.loccountrycode,
-    req.body.locstatecode,
-    req.body.loccityid,
-    req.params.admin_id
-  ];
-  query = mysql.format(query,table);
-  connection.query(query,function(err,rows){
-      if(err) {
-          res.json({"error" : true, "mensaje" : "Error executing MySQL query"});
-      } else {
-          res.json({"mensaje" : "Admin "+req.params.admin_id+" actualizado."});
-      }
-  });
-});
-//3.d DELETE
-// Eliminamos un admin por su (admin.id)
-// ELIMINAMOS EL ROW COMPLETO
-router.delete('/admin/:admin_id', function(req, res){
-  var query = "DELETE FROM ?? WHERE ??=?";
-  var table = [
-    "admin",
-    "id",
-    req.params.admin_id
-  ];
-  query = mysql.format(query,table);
-  connection.query(query,function(err,rows){
-      if(err) {
-          res.json({"error" : true, "mensaje" : "Error executing MySQL query"});
-      } else {
-          res.json({"mensaje" : "Admin "+req.params.admin_id+" eliminado"});
-      }
-  });
-});
 
 module.exports = router;

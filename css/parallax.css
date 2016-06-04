@@ -1,0 +1,41 @@
+.crt-parallaxvideo{
+height: 550px;
+padding-bottom: 0px;
+padding-top: 0px;
+}
+.crt-parallaxvideo video{
+min-width: 100%;
+position: fixed;
+top:-250;
+z-index: -100;
+}
+.crt-parallaxvideo h1 {
+color: #053f80;
+font-size: 76px;
+font-weight: 700;
+text-align: center;
+text-transform: uppercase;
+}
+
+/*.plax.ccparallax-one {
+background-image: url("../images/paxallax1.jpg");
+}*/
+.plax.ccparallax {
+background-attachment: fixed;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: cover;
+padding-bottom: 200px;
+padding-top: 200px;
+}
+.plax.content {
+background: none repeat scroll 0 0 #2581e8;
+padding: 42px 0;
+}
+.ccparallax h1 {
+  color: #B44335;
+  font-size: 76px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}

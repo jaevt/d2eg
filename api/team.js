@@ -1,20 +1,21 @@
 var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
-var Team = require('./model/Team');
-var Player = require('./model/Player');
+var Team = require('./model/team');
+var Player = require('./model/player');
 var connection = mongoose.createConnection('mongodb://localhost:27017/test');
 
 router.post('/', function(req, res){
   var team = new Team;
+  team.game = req.body.game;
   team.name = req.body.name;
   team.pass = req.body.pass;
   team.country = req.body.country;
   team.avatar = req.body.avatar;
   team.description = req.body.description;
   team.save(function(err){
-    if(err)return res.json(JSON.stringify({"error": true,"mensaje": "No se pudo crear el equipo"},null,4));
-    return res.json(JSON.stringify({"mensaje": "Team creado con exito!"},null,4));
+    if(err)return res.json({"error": true,"mensaje": "No se pudo crear el equipo"});
+    return res.json({"mensaje": "Team creado con exito!"});
   });
 });
 // ADD PLAYER TO TEAM

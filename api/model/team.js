@@ -1,9 +1,8 @@
 var mongoose     = require('mongoose');
 var Schema       = mongoose.Schema;
-var Player       = require('./Player');
+var Player       = require('./player');
 var connection = mongoose.createConnection('mongodb://localhost:27017/test');
 var TeamSchema   = new Schema({
-
   steamid: String,
   pass: String,
   name: String,
