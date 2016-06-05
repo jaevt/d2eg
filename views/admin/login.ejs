@@ -1,30 +1,20 @@
 <head>
-	<% include ../partials/head %>
+<script src="https://cdn.auth0.com/js/lock-9.1.min.js"></script>
 </head>
-<body  background="/img/ui/footer_lodyas.png">
-	<% include ../partials/google-analytics %>
-	<% include ../partials/header %>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				<div class="panel">
-					<div class="panel-body">
-		        <form method="POST" action="/admin/go/login" enctype="application/x-www-form-urlencoded">
-		          <div class="form-group">
-		            <label for="item1">ID</label>
-		            <input type="text" class="form-control" id="item1" name="mail" placeholder="Email">
-		          </div>
-		          <div class="form-group">
-		            <label for="item2">Password</label>
-		            <input type="password" class="form-control" name="pass" id="item2" placeholder="Password">
-		          </div>
-		          <button type="submit" class="btn btn-default">Submit</button>
-		        </form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<% include ../partials/footer %>
-	<% include ../partials/bootstrapjs %>
+<body onload="window.signin();">
+<script type="text/javascript">
+
+  var lock = new Auth0Lock('H9JoH4DKEOuoyGxEnBl9MyrKRI19L7IQ', 'jaevt.auth0.com');
+
+
+  function signin() {
+    lock.show({
+        callbackURL: 'http://localhost/admin/return'
+      , responseType: 'code'
+      , authParams: {
+        scope: 'openid email'  // Learn about scopes: https://auth0.com/docs/scopes
+      }
+    });
+  }
+</script>
 </body>

@@ -8,7 +8,6 @@ var session = require('express-session');
 var request = require('request');
 var SteamStrategy = require('passport-steam').Strategy;
 var twitchStrategy = require("passport-twitch").Strategy;
-var FacebookStrategy = require('passport-facebook').Strategy;
 var actualIP = 'localhost';
 
 
@@ -60,7 +59,6 @@ router.get('/auth/steam',passport.authenticate('steam', { failureRedirect: '/' }
 });
 
 router.get('/auth/steam/return',passport.authenticate('steam', { failureRedirect: '/' }),function(req, res) {
-    console.log(req.user._json);
     var options = {
       uri: 'http://'+actualIP+'/api/player/updateOrCreateIfNotExist',
       method: 'POST',
@@ -74,8 +72,8 @@ router.get('/auth/steam/return',passport.authenticate('steam', { failureRedirect
         };
         request(options, function (error, response, body) {
           if (!error && response.statusCode == 200) {
-            console.log(body);
             req.session.user=JSON.parse(body);
+            req.session.user.isAuthenticated = req.isAuthenticated();
             return res.redirect('/');
           }else{
             return res.redirect('/');
@@ -134,6 +132,7 @@ router.get("/twitch/auth/return", passport.authenticate("twitch", { failureRedir
       request(options, function (error, response, body) {
         if (!error && response.statusCode == 200) {
           req.session.user = JSON.parse(body);
+          req.session.user.isAuthenticated = req.isAuthenticated();
           console.log(req.session.user);
           return res.redirect('/players/account');
         }else{
@@ -144,31 +143,6 @@ router.get("/twitch/auth/return", passport.authenticate("twitch", { failureRedir
       console.log("Error al conectar twitch");
     }
   });
-});
-
-// Passport session setup.
-passport.serializeUser(function(user, done) {
-  done(null, user);
-});
-passport.deserializeUser(function(obj, done) {
-  done(null, obj);
-});
-passport.use(new FacebookStrategy({
-    clientID: '284108428599597',
-    clientSecret: '286c9e6cbe6460e7b3df392f6236781a',
-    callbackURL: '/facebook/auth/return'
-  },
-  function(accessToken, refreshToken, profile, done) {
-    process.nextTick(function () {
-      console.log(profile)
-      return done(null, profile);
-    });
-  }
-));
-router.get('/facebook/auth', passport.authenticate('facebook'));
-router.get('/facebook/auth/return',passport.authenticate('facebook', {successRedirect : '/',failureRedirect: '/'}),function(req, res) {
-  console.log(req.user);
-  res.redirect('/');
 });
 
 module.exports = router;
