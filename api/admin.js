@@ -5,28 +5,20 @@ var Admin = require('./model/admin');
 
 router.post('/',function(req,res){
   var admin = new Admin;
-  admin.mail = req.body.mail;
-  admin.pass = req.body.pass;
-  admin.realname = req.body.realname;
-  admin.personaname = req.body.personaname;
+  admin.user_id = req.body.user_id;
+  admin.email = req.body.email;
+  admin.country = req.body.country;
+  admin.nickname = req.body.nickname;
   admin.save(function(err){
     if(err) return res.json({"error": true, "mensaje": "No se pudo crear administrador",err});
-    return res.json({"mensaje":"Administrador creado"});
+    return res.json({"mensaje":"Administrador creado","admin":admin});
   });
 });
 
 router.get('/:_id',function(req,res){
-  Admin.findById(req.params._id,function(err,admin){
+  Admin.findOne({user_id: req.params._id},function(err,admin){
     if(err) return res.json({"error": true, "mensaje": "No se pudo acceder a los datos del Administrador",err});
     return res.json({"mensaje": "Administrador encontrado" , "admin": admin});
-  });
-});
-
-router.post('/login',function(req,res){
-  Admin.findOne({mail:req.body.mail, pass:req.body.pass},function(err,admin){
-    if(err) return res.json({"error": true, "mensaje": "No se pudo acceder a los datos del Administrador",err});
-    if(admin) return res.json({"mensaje": "Contraseña correcta, se ha iniciado sesion", "admin":admin});
-    if(!admin) return res.json({"error": true, "mensaje": "Contraseña o correo incorrectos"});
   });
 });
 

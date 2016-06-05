@@ -5,7 +5,6 @@ var express = require('express');
 var router = express.Router();
 var mongoose = require('mongoose');
 var Player = require('./model/player');
-var Twitch = require('./model/twitch');
 
 router.post('/', function(req, res){
   var player = new Player;

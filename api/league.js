@@ -21,22 +21,15 @@ router.post('/', function(req, res){
 
 router.delete('/:_id', function(req, res){
   League.findByIdAndRemove(req.params._id, function(err){
-    if(err) return res.json({"error": true, err});
+    if(err) return res.json({"error": true,"mensaje":"No se elimino la competencia", err});
     return res.json({"mensaje": "Competencia eliminada"});
   });
 });
 
-router.get('/', function(req, res){
-  League.find({}, function(err,leagues){
-    if(err) return res.json({"error": true, err});
-    return res.json({"mensaje": "Busqueda correcta", "leagues":leagues});
-  });
-});
-
-router.post('/battlefy/:_id', function(req, res){
+router.put('/battlefy/:_id', function(req, res){
   League.findByIdAndUpdate(req.params._id,
   {
-    "battlefy":{
+    battlefy:{
       cuadros: req.body.cuadros ,
       clasificados: req.body.clasificados,
       participantes: req.body.participantes,
@@ -51,9 +44,9 @@ router.post('/battlefy/:_id', function(req, res){
 router.delete('/battlefy/:_id', function(req, res){
   League.findByIdAndUpdate(req.params._id,
   {
-    "battlefy": null
+    battlefy: null
   },{ upsert: true, new: true, setDefaultsOnInsert: true },function(err, result){
-    if(err) return res.json({"error": true, "mensaje": err});
+    if(err) return res.json({"error": true, "mensaje":"Modificado battlefy", err});
     return res.json({"mensaje": "Hecho"});
   });
 });
@@ -65,14 +58,21 @@ router.get('/:_id', function(req, res){
   });
 });
 
+router.get('/', function(req, res){
+  League.find({}, function(err,leagues){
+    if(err) return res.json({"error": true, err});
+    return res.json({"mensaje": "Busqueda correcta", "leagues":leagues});
+  });
+});
+
 router.put('/:_id', function(req, res){
   League.findByIdAndUpdate( req.params._id,{
     title: req.body.title,
     description: req.body.description,
     avatar: req.body.avatar,
-    rules: req.body.rules
+    rules: req.body.rules,
+    editedAt: Date.now()
   }, function(err,league){
-    console.log("ESTAS EN EL EDIT DE LA API");
     if(err) return res.json({"error": true, "mensaje": "Error al editar competicion", err});
     return res.json({"mensaje": "Liga encontrada","updated": league});
   });
