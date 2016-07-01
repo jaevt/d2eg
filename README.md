@@ -29,7 +29,8 @@ Interfaz que se comunica con la base de datos, dependiendo del metodo HTTP y/o J
 
 #####Player
 
-Endpoint	|Descripcion
+Endpoint	| Descripcion
+------------ | -------------
 GET /player |	Responde un JSON con todos los jugadores.
 GET /player/:steamid |	Responde un JSON con los datos del jugador.
 POST /player |	Registra un jugador.
@@ -40,6 +41,7 @@ DELETE /player/twitch/:_id |	Desvincula una cuenta de Twitch.
 #####League
 
 Endpoint |	Descripcion
+------------ | -------------
 GET /league/ |	Responde un JSON con todas las competencias.
 GET /league/:steamid |	Responde un JSON con los datos de una competencia específica.
 POST /league |	Registra una competencia.
