@@ -39,4 +39,4 @@ app.use('/',webpagesrouter);
 app.use('*',function(req,res){
   res.render('404',{ user: req.session.user, admin: req.session.admin});
 });
-app.listen(80);
+app.listen(3000);
