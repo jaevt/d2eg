@@ -10,26 +10,9 @@ var LeagueSchema   = new Schema({
   description: String,
   rules: String,
   avatar: String,
-  createdAt: {type:Date, default:Date.now()},
-  editedAt: {type:Date, default:Date.now()},
-  eventDate: {type:Date, default:Date.now()},
-  streams:{
-    type:[{
-      title: String,
-      url: String,
-      icon: String,
-    }]
-    ,default: null
-  },
-  battlefy:{
-    type:{
-      cuadros: String,
-      clasificados: String,
-      participantes: String,
-      join_button: String
-    },
-    default: null
-  },
+  created: {type:Date, default:Date.now()},
+  edited: {type:Date, default:Date.now()},
+  eventDate: Date,
   admin:{
     type: Schema.ObjectId,
     ref: "Admin"

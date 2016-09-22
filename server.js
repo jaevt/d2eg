@@ -13,6 +13,7 @@ var apileague = require('./api/league');
 var bodyParser  = require("body-parser");
 var routeadmin = require("./routes/admin");
 var routeplayer = require("./routes/player");
+var routeleague = require("./routes/league");
 var app = express();
 
 app.set('views', __dirname + '/views');
@@ -32,6 +33,7 @@ app.use(passport.session());
 app.use(express.static(__dirname));
 app.use('/admin',routeadmin);
 app.use('/players',routeplayer);
+app.use('/league',routeleague);
 app.use('/api/player',apiplayer);
 app.use('/api/admin',apiadmin);
 app.use('/api/league',apileague);
